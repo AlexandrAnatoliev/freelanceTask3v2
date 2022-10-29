@@ -38,6 +38,7 @@ def open_text1():
     print("Взяты значения из текстового файла")
     file1.close()  # закрывает файл
     return file1_read
+# удалить позже
 
 # взять ВСЕ данные из базы1 (таблицы firsttable) и занести в список со словарями date_from_table1
 def open_base1():
